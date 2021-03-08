@@ -9,3 +9,7 @@ html, body{
     background-color: white;
 }
 
+.main-container{
+    border: 4px solid #fb8500;
+    border-radius: 10px;
+}
