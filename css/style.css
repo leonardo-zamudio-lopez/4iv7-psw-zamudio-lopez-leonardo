@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: rgb(58,76,180);
+    background: linear-gradient(52deg, rgba(58,76,180,1) 0%, rgba(29,148,253,1) 42%, rgba(29,253,252,1) 100%);
+    height: 100vh;
+}
+
+main{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.image img{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 314px;
+    width: 100%;
+    margin: 19px;
+    background: #fff;
+    padding: 19px;
+    border-style: solid;
+    border-width: 15px;
+    border-top-color: lighten(#000, 20%);
+    border-right-color: lighten(#000, 0%);
+    border-bottom-color: lighten(#000, 20%);
+    border-left-color: lighten(#000, 0%);
+    box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    margin: auto;
+    text-align: center;
+}
+
+button{
+    background: #0de1e1;
+    background: linear-gradient(#0de1e1, #4f9fe8);
+    border-radius: 23px;
+    padding: 20px 45px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal bold 26px/1 "Helvetica", sans-serif;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+}
