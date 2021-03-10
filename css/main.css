@@ -1,5 +1,10 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+body{
+    background: rgb(58,76,180);
+    background: linear-gradient(52deg, rgba(58,76,180,1) 0%, rgba(29,133,253,1) 42%, rgba(29,253,252,1) 100%); 
 }
 
 h1{
@@ -12,8 +17,22 @@ h2{
 
 h3{
     color: #2c7da0;
+    font-size: medium;
 }
 
 h4{
-    color: #89c2d9;
+    color: #89c2d9;    
+}
+
+div{
+    background-color: white;
+    width: 60%;
+    border-style: solid;
+    border-width: 30px;
+    border-top-color: white;
+    border-right-color: white;
+    border-bottom-color: white;
+    border-left-color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,.6);
+    margin: auto;
 }
