@@ -15,7 +15,6 @@ header{
 
 main{
     background: rgb(255,255,255);
-    background: linear-gradient(52deg, rgba(255,255,255,1) 0%, rgba(212,212,212,1) 54%, rgba(195,195,195,1) 100%);
 }
 
 #content{
@@ -81,4 +80,4 @@ button:active{
 a{
     color: white;
     text-decoration: none;
-}
+}  
